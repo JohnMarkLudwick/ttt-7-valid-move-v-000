@@ -15,6 +15,5 @@ def position_taken?(board, position)
     false
     else
     false
-    true
     end
 end
