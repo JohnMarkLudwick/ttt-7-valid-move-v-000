@@ -14,6 +14,7 @@ def position_taken?(board, position)
     elsif board[position] == nil
     false
     else
+    false  
     true
     end
 end
