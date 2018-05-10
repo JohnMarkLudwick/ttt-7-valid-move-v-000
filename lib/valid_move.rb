@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if board == truthy && index == truthy
+  if board == true && index == true
   end  
 end
 
