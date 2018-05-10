@@ -8,7 +8,7 @@ end
 #if position is filled with X or O the position is taken.
 def position_taken?(board, position)
   if board[position] == "X" or "O"
-    false
+    true
     elsif board[position] == ""
     false
     elsif board[position] == nil
