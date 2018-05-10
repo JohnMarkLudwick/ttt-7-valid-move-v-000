@@ -1,4 +1,5 @@
 def valid_move?(board, index)
+  #if the position is not taken then it's valid & the move must be between 0 and 8.
   if board || [] && index == true
   true
   end  
