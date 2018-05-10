@@ -1,6 +1,6 @@
 def valid_move?(board, index)
   #if the position is not taken then it's valid & the move must be between 0 and 8.
-  if !position_taken?(board, position) && index.between?(0,8) == true
+  if !position_taken?(board, index) && index.between?(0,8) == true
   true
   end  
 end
