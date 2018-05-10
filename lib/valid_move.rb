@@ -1,4 +1,4 @@
-def valid_move?(board, index)
+def valid_move?(board, index).to betruthy
   if board == true && index == true
   true
   end  
